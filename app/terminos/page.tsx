@@ -1,0 +1,2 @@
+import { LegalPage } from "@/components/legal-page";
+export default function Terminos() { return <LegalPage title="Términos de compra"><p><strong>Borrador sujeto a revisión profesional y legal.</strong></p><p>Definir aquí la descripción de los recursos, moneda, impuestos si correspondieran, proceso de pago con Mercado Pago, entrega mediante enlace temporal, vigencia del enlace y canal de soporte.</p><p>No se implementará facturación fiscal automática hasta definir los datos y requisitos concretos de la profesional.</p></LegalPage>; }

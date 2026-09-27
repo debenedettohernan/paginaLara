@@ -1,0 +1,2 @@
+import { LegalPage } from "@/components/legal-page";
+export default function Cancelaciones() { return <LegalPage title="Política de cancelación"><p><strong>Borrador sujeto a revisión profesional y legal.</strong></p><p>Completar con anticipación mínima, reprogramaciones, cancelaciones de la profesional, ausencias y tratamiento de pagos. La reserva debe mostrar esta política antes de confirmarse.</p></LegalPage>; }

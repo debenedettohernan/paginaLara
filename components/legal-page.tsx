@@ -1,0 +1,1 @@
+export function LegalPage({title,children}:{title:string;children:React.ReactNode}) { return <div className="shell"><div className="page-intro"><p className="kicker">Documento legal</p><h1>{title}</h1><p className="lead">Texto de trabajo para revisar antes de publicar.</p></div><div className="text-block" style={{paddingBottom:100,maxWidth:700}}>{children}</div></div>; }

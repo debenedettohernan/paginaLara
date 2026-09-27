@@ -1,0 +1,3 @@
+import { BookingForm } from "@/components/booking-form";
+
+export default function ReservarPage() { return <div className="shell"><div className="page-intro"><p className="kicker">Turnos</p><h1>Elegí un momento para conversar.</h1><p className="lead">Seleccioná una modalidad y un horario orientativo. La solicitud queda pendiente hasta que la profesional la confirme.</p></div><div className="notice" style={{marginBottom:32}}>Modo demo activo: los horarios se muestran como ejemplo y las solicitudes se guardan temporalmente en el servidor local. Antes de publicar, conectar Supabase y completar la disponibilidad real.</div><BookingForm /></div>; }
